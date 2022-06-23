@@ -1,0 +1,47 @@
+.card {
+    width: 370px;
+    height: 416px;
+}
+
+@media (max-width: 1040px) {
+    .card {
+        width: 329px;
+    }
+}
+
+.card_wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    height: 100%;
+}
+
+.card_wrapper img {
+    height: 100%;
+    width: auto;
+}
+
+.card_category {
+    position: absolute;
+    padding: 9px 20px 8px 17px;
+    left: 48px;
+    top: 256px;
+    font-size: 16px;
+    line-height: 21px;
+    border-radius: 19px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card_title {
+    position: absolute;
+    left: 48px;
+    top: 324px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+
